@@ -1,0 +1,437 @@
+/*Barra de rolagem horizontal oculta*/
+body { overflow-x: hidden; }
+
+/*rolagem das ancoras suave*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Reset de cores dos links*/
+a {
+    color: #fff;
+}
+a:link {
+    color: #fff;
+ }
+ a:visited {
+     color: #fff;
+ }
+ a:hover {
+     color: #fff;
+ }
+ a:active {
+     color: #fff;
+ }
+
+ /*------------*/
+    /*NAVBAR*/
+ /*------------*/
+
+.top-nav {
+    height: 30px;
+    width: 100%;
+    color: #ffffff;
+    background: #de3c3c;
+    font-family: Poppins;
+    font-weight: normal;
+    padding-top: 6px;
+}
+
+.divisor {
+    padding: 6px 15px;
+    color: darkgray;
+}
+
+.icons-top {
+    font-size: 15px;
+}
+
+.icons-top-face:hover {
+    color: dodgerblue;
+}
+
+.icons-top-insta:hover {
+    color: hotpink;
+}
+
+.fa-bars {
+    color: #de3c3c;
+}
+
+@media (max-width: 400px) 
+{
+    .top-nav {
+        font-size: 10px;
+    }
+}
+
+.logo {
+    width: 308px;
+    height: 75px;
+    margin-top: 4px;
+}
+
+nav {
+    color: #3c3c3c;
+    background-color: #f8f9fc;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav-top li a {
+    color: #3c3c3c;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+@media (max-width: 1200px) 
+{
+    .nav-top li a {
+        font-size: 13px;
+    }
+}
+
+.nav-top li a:hover {
+    color: #de3c3c;
+    background-color: #e6e6e6;
+}
+
+ /*------------*/
+ /*slide-sobre*/
+ /*------------*/
+
+.slider.fullscreen {
+    height: calc(100% - 110px);
+    width: 100%;
+    top: 110px;
+    left: 0;
+    right: 0;
+}
+
+.slider ul li h3 {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.slider .indicators {
+    position: relative;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: -35px;
+    z-index: 5;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #de3c3c;
+}
+
+#sobre {
+    background-color: #f8f9fc;
+    font-family: Poppins;
+    padding-bottom: 40px;
+}
+
+#sobre h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #3c3c3c;
+}
+
+.descricao {
+    padding-top: 40px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.60;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3c3c3c;
+}
+
+.logo-sobre {
+    width: 554px;
+    height: 134px;
+    margin-top: 40px;
+}
+
+ /*------------*/
+   /*SERVICOS*/
+ /*------------*/
+
+#servicos {
+    margin-top: -57px;
+    height: 100vh;
+    background-image: url("../img/bg1-opa.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover; /* SAFARI / CHROME */
+    -moz-background-size: cover; /* FIREFOX */
+    -ms-background-size: cover; /* IE */
+    -o-background-size: cover; /* OPERA */
+}
+
+#servicos h1 {
+    color: #f8f9fc;
+    font-family: Poppins;
+    font-size: 65px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.03;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.card {
+    width: 350px;
+    border-radius: 15px;
+    background-color: rgba(243, 243, 243, 0.6)
+}
+
+.cards-servicos {
+    padding-top: 90px;
+}
+
+.card-title h2{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.card-content p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.icons-servicos {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #3c3c3c;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+.card .card-action:last-child {
+    border-radius: 0 0 15px 15px;
+}
+
+/*RESPONSIVE CARDS*/
+@media (max-width: 1562px) 
+{
+    .card {
+        width: 250px;
+    }
+
+    .cards-servicos {
+        padding-top: 25px;
+    }
+
+    #servicos h1 {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 1300px) 
+{
+    .card-module {
+        margin: 0 500px 0 0;
+    }
+}
+
+ /*------------------*/
+ /*CONTATO-ORCAMENTO*/
+ /*-----------------*/
+
+#contato {
+    height: 100vh;
+}
+
+ #contato h1 {
+    font-family: Poppins;
+    font-size: 65px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+    padding-top: 60px;
+ }
+
+.texto-contato {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+ }
+
+ .formulario {
+     padding-top: 45px;
+ }
+
+.btn {
+    font-family: Poppins;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.col .row {
+    margin-left: -.75rem;
+    margin-right: 1.25rem;
+}
+
+.btn i {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+#contato h3 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3c3c3c;
+}
+
+.contato-info {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    color: #3c3c3c;
+    padding: -5px 0 -5px 0;
+}
+
+.contact-social-icons {
+    font-size: 40px;
+}
+
+.social-icon-face {
+    color: dodgerblue;
+}
+
+.social-icon-face:link {
+    color: dodgerblue;
+}
+
+.social-icon-face:visited {
+    color: dodgerblue;
+}
+
+.social-icon-face:active {
+    color: dodgerblue;
+}
+
+.social-icon-face:hover {
+    color: #3c3c3c;
+}
+
+.social-icon-insta {
+    color: hotpink;
+}
+
+.social-icon-insta:link {
+    color: hotpink;
+}
+
+.social-icon-insta:visited {
+    color: hotpink;
+}
+
+.social-icon-insta:active {
+    color: hotpink;
+}
+
+.social-icon-insta:hover {
+    color: #3c3c3c;
+}
+
+.social-icon-whats {
+    color: lawngreen;
+}
+
+.social-icon-whats:link {
+    color: lawngreen;
+}
+
+.social-icon-whats:visited {
+    color: lawngreen;
+}
+
+.social-icon-whats:active {
+    color: lawngreen;
+}
+
+.social-icon-whats:hover {
+    color: #3c3c3c;
+}
+
+#localizacao iframe {
+    height: 400px;
+    width: 100%;
+}
+
+/*form*/
+.input-field>label {
+    font-size: 1.3rem;
+    font-family: Poppins;
+    font-weight: normal;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #de3c3c;
+    font-family: Poppins;
+    font-weight: normal;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #de3c3c;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #de3c3c;
+    -webkit-box-shadow: 0 1px 0 0 #de3c3c;
+    box-shadow: 0 1px 0 0 #de3c3c;
+}

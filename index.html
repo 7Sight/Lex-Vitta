@@ -2,36 +2,293 @@
 <html lang="pt-br">
 
 <head>
-
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Site da empresa Júnior de Direito Lex Vitta, primeira empresa Júnior de Direito do IESB,
+    trazendo para essa instituição o Movimento Empresa Júnior que acontece nas melhores Instituições
+    de ensino Superior do Brasil" />
+    <meta name="keywords" content="empresa, junior, direito, lexvitta, iesb" />
+
+
+    <!-- imports -->
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
-    <meta name="description" content="Site da empresa Júnior de Direito Lex Vitta." />
-    <meta name="keywords" content="empresa, junior, direito, lexvitta" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+
     <title>Lex Vitta - Empresa Júnior de Direito</title>
 
 </head>
 
 <body>
 
-    <header>
+    <header id="inicio">
 
+        <div class="top-nav">
+            <div class="container right-align">
+                <span>(61) 3962-4730</span>
+                <span class="divisor">|</span>
+                <span>lexvittaej@gmail.com</span>
+                <span class="divisor">|</span>
+                <a href="https://pt-br.facebook.com/LexVittaEJ/" target="_blank">
+                    <i class="fab fa-facebook-square icons-top icons-top-face"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram icons-top icons-top-insta"></i>
+                </a>
+            </div>
+        </div>
+
+        <nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li>
+                    <a href="#inicio">Sobre</a>
+                </li>
+                <li>
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li>
+                    <a href="#contato">Orçamento</a>
+                </li>
+                <li>
+                    <a href="#agenda">Agenda</a>
+                </li>
+            </ul>
+
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">
+                        <img class="logo" src="img/logo.png" />
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fas fa-bars"></i>
+                    </a>
+
+                    <ul id="nav-mobile" class="right hide-on-med-and-down nav-top">
+                        <li>
+                            <a href="#inicio">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#servicos">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Orçamento</a>
+                        </li>
+                        <li>
+                            <a href="#agenda">Agenda</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
         <section>
+            <div id="sobre">
+
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img src="img/slide1.jpg">
+                            <div class="caption center-align">
+                                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                                <h5 class="light grey-text text-lighten-3">Accusantium est ducimus laboriosam repudiandae doloribus, iure, ullae, ullam ducimus.</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/slide2.jpg">
+                            <div class="caption center-align">
+                                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <h1>Sobre a Lex Vitta</h1>
+                </div>
+
+                <div class="container descricao">
+                    <div class="row">
+                        <div class="col l6">
+                            <p>Nós da Lex Vitta, temos o prazer imenso de ser a primeira empresa Júnior de Direito do IESB,
+                                trazendo para essa instituição o Movimento Empresa Júnior que acontece nas melhores Instituições
+                                de ensino Superior do Brasil, onde sua principal missão é “formar empreendedores comprometidos”
+                                para impactar o nosso Brasil! E claro que, nesse intuito de comprometimento, empreendedorismo
+                                e compromisso com o futuro! Formamos essa Empresa Júnior!</p>
+                        </div>
+                        <div class="col l6">
+                            <img class="logo-sobre responsive-img" src="img/logo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="servicos">
+                <div class="container">
+                    <h1>Serviços</h1>
+                    <div class="row cards-servicos">
+
+                        <div class="col l4">
+                            <div class="col s12 m7">
+                                <div class="row card-module">
+                                    <div class="card hoverable horizontal large">
+                                        <div class="card-content">
+                                            <div class="row icons-servicos">
+                                                <i class="fas fa-user-tie"></i>
+                                            </div>
+                                            <span class="card-title">
+                                                <h2>Abertura e Regularização de Pessoa Jurídica</h2>
+                                            </span>
+                                            <p>Cuidamos da documentação para a estruturação e regularização de empresas e associações
+                                                civis.
+                                            </p>
+                                        </div>
+                                        <div class="card-action center-align">
+                                            <a href="#contato" class="waves-effect red lighten-1 waves-light btn-small">Contratar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l4">
+                            <div class="col s12 m7">
+                                <div class="row card-module">
+                                    <div class="card hoverable horizontal large">
+                                        <div class="card-content">
+                                            <div class="row icons-servicos">
+                                                <i class="fas fa-edit"></i>
+                                            </div>
+                                            <span class="card-title">
+                                                <h2>Elaboração e Revisão Contratual</h2>
+                                            </span>
+                                            <p>Trabalhamos também com a elaboração e revisão de documentos jurídicos.
+                                            </p>
+                                        </div>
+                                        <div class="card-action center-align">
+                                            <a href="#contato" class="waves-effect red lighten-1 waves-light btn-small">Contratar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l4">
+                            <div class="col s12 m7">
+                                <div class="row card-module">
+                                    <div class="card hoverable horizontal large">
+                                        <div class="card-content">
+                                            <div class="row icons-servicos">
+                                                <i class="fas fa-balance-scale"></i>
+                                            </div>
+                                            <span class="card-title">
+                                                <h2>Soluções Jurídicas</h2>
+                                            </span>
+                                            <p>Visamos também diagnosticar e solucionar problemas jurídicos, assessorando-o
+                                                preventivamente e garantindo maior segurança jurídica para o desenvolvimento
+                                                de seus negócios.
+                                            </p>
+                                        </div>
+                                        <div class="card-action center-align">
+                                            <a href="#contato" class="waves-effect red lighten-1 waves-light btn-small">Contratar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h1>Solicite seu orçamento</h1>
+                <p class="texto-contato">Lorem ipsum dolor sit Lorem ipsum dolor sit.Lorem ipsum dolor sit.</p>
+
+                <div class="row formulario">
+                    <form action="" class="col s12 l5" method="POST" netlify>
+                        <div class="row">
+                            <div class="col s12 input-field">
+                                <input type="text" name="nome" id="nome" required>
+                                <label for="nome">Nome</label>
+                            </div>
+                            <div class="col s12 input-field">
+                                <input type="email" name="email" id="email" required>
+                                <label for="email">E-mail</label>
+                            </div>
+                            <div class="col s12 input-field">
+                                <input type="tel" name="telefone" id="telefone" required>
+                                <label for="telefone">Telefone</label>
+                            </div>
+                            <div class="col s12 input-field">
+                                <input type="text" name="assunto" id="assunto" required>
+                                <label for="assunto">Assunto</label>
+                            </div>
+                            <div class="col s12 input-field">
+                                <textarea type="text" name="mensagem" id="mensagem" class="materialize-textarea" required></textarea>
+                                <label for="mensagem">Mensagem</label>
+                            </div>
+                            <div class="col s12 input-field">
+                                <button class="waves-effect waves-light btn red lighten-1 btn-large" type="submit" name="action">Enviar
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="col s12 l7 flow-text">
+                        <h3>Endereço: </h3>
+                        <p class="contato-info">Campus Oeste Liliane Barbosa, QNN 31 – Áreas Especiais B/C/D/E</p>
+                        <p class="contato-info">Ceilândia Norte–DF CEP: 72.225-315</p>
+
+                        <p class="contato-info">Campus Norte Giovanina Rímoli, SGAN Quadra 609 – Módulo D L2 Norte</p>
+                        <p class="contato-info">Brasília–DF CEP: 70.830-404</p>
+
+                        <h3>Email:</h3>
+                        <p class="contato-info">lexvittaej@gmail.com</p>
+
+                        <h3>Mídias Sociais:</h3>
+
+                        <a href="https://pt-br.facebook.com/LexVittaEJ/" target="_blank" class="contact-social-icons social-icon-face">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank" class="contact-social-icons social-icon-insta">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <h3>Whatsapp:</h3>
+                        <a href="https://www.whatsapp.com/" target="_blank" class="contact-social-icons social-icon-whats">
+                            <i class="fab fa-whatsapp-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
         </section>
+
+        <section id="localizacao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.8850125801746!2d-48.12747518458737!3d-15.810016027552546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bcc64ba8942e9%3A0x79640388ffba5890!2sCentro+Universit%C3%A1rio+IESB!5e0!3m2!1spt-BR!2sbr!4v1534725063901"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+
     </main>
 
-    <footer>
-
-    </footer>
-    
+    <!-- js imports -->
+    <script src="js/jquery.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 </body>
